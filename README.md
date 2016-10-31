@@ -41,8 +41,8 @@ int main(int argc, char* argv[])
 Outputs :
 
 ```
-[0] ./a.out(main+0x28) [0x40128e]
-There has been a critical error ! (in main at main.c:7)
+[0] 0x4012a4 in main at main.c:6
+There has been a critical error ! (in main at main.c:6)
 ```
 
 You can read the small demo to have a better understanding on how to use this library. As stated in the disclaimer, a better documentation will come.
