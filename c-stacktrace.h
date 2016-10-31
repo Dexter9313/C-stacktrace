@@ -168,6 +168,8 @@ int addr2line(char const * const program_name, void const * const addr, int line
 				
 				for(i = 0; i < 1035; ++i)
 				{
+					if(outLine2[i] == '\0')
+						break;
 					if(outLine2[i] == '/')
 						lastSlashPos = i+1;
 				}

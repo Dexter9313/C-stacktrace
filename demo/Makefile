@@ -1,2 +1,2 @@
 all:
-	gcc main.c -rdynamic
+	gcc main.c -rdynamic -g
