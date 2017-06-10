@@ -1,3 +1,4 @@
+[![Build Status](https://travis-ci.org/Dexter9313/C-stacktrace.svg?branch=master)](https://travis-ci.org/Dexter9313/C-stacktrace)
 # C-stacktrace
 C-stacktrace is a small header C library to print stack trace on execution if an exception occurs (such as segmentation fault). It is designed to print useful information on exceptions while the program was used or tested outside of a debugger and remove the hassle to relaunch the program and pray for it to crash again in a debugger to find the problem. With a few more features it could be extended to be a useful crash-report generator to be sent by the user to the developer. The development of such a feature is not yet seriously considered but could very well be in the near future.
 
